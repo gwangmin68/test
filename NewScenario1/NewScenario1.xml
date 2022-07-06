@@ -1,0 +1,50 @@
+<Script xmlns:ui="http://www.Hempking.com/workflow/activities" DisplayName="Main" GUID="c324a9e8-d283-4e08-9f5c-b7abec0c0b33">
+  <NamespacesRef>
+    <Namespace>System</Namespace>
+    <Namespace>System.IO</Namespace>
+    <Namespace>System.Diagnostics</Namespace>
+    <Namespace>System.Collections.Generic</Namespace>
+    <Namespace>System.Linq</Namespace>
+    <Namespace>System.Text</Namespace>
+    <Namespace>System.Text.RegularExpressions</Namespace>
+    <Namespace>System.Threading.Tasks</Namespace>
+    <Namespace>System.Xml</Namespace>
+    <Namespace>System.Data</Namespace>
+    <Namespace>System.Windows</Namespace>
+    <Namespace>System.Windows.Forms</Namespace>
+    <Namespace>System.Reflection</Namespace>
+    <Namespace>Newtonsoft.Json.Linq</Namespace>
+    <Namespace>System.Windows.Media.Imaging</Namespace>
+  </NamespacesRef>
+  <AssemblyRef>
+    <Assembly>System</Assembly>
+    <Assembly>System.Core</Assembly>
+    <Assembly>System.xml</Assembly>
+    <Assembly>System.Windows</Assembly>
+    <Assembly>System.Windows.Forms</Assembly>
+    <Assembly>System.Linq</Assembly>
+    <Assembly>System.Data</Assembly>
+    <Assembly>System.Drawing</Assembly>
+    <Assembly>System.Data.DataSetExtensions</Assembly>
+    <Assembly>Microsoft.CSharp</Assembly>
+    <Assembly>System.Dynamic.Runtime</Assembly>
+    <Assembly>System.Linq.Expressions</Assembly>
+    <Assembly>Newtonsoft.Json</Assembly>
+  </AssemblyRef>
+  <Script.Variables>
+    <Variable Type="string" Name="GPath" Default="@&quot;C:\test\aa\test\.git\NewScenario1\&quot;" />
+  </Script.Variables>
+  <ChartReadOnly ReadOnly="False" />
+  <Shapechart GUID="c324a9e8-d283-4e08-9f5c-b7abec0c0b37" />
+  <Faintchart GUID="c324a9e8-d283-4e08-9f5c-b7abec0c0b39" />
+  <Flowchart GUID="c324a9e8-d283-4e08-9f5c-b7abec0c0b35">
+    <Flowchart.StartNode />
+    <Flowchart.SymbolNode>
+      <Symbol>0F0CA3A5BDE30C8E48CC3E6791699BFF84C1397D276B95C3DB4F5C956E7BB5A8</Symbol>
+    </Flowchart.SymbolNode>
+    <Flowchart.DataNode />
+  </Flowchart>
+  <Diagram>
+    <NodeData Key="7a2362b4-9097-4217-949b-ae87b4a6a82e" Category="Start" Location="0 0" Text="START" Width="60" Height="60" />
+  </Diagram>
+</Script>
